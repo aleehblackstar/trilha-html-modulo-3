@@ -10,8 +10,8 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: black;
-    font: #cdcdcd;
     padding:15px;
+    
 }
 
 .bar-temas { 
@@ -35,6 +35,37 @@ li {
     margin-bottom: 20px;
 }
 
+.titulo {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.corTitulo {
+    color: #853a1c;
+}
+
+.personagem {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.fotoPersonagem {
+    width: 400px;
+    height: auto;
+    align-self: center;
+
+    
+}
+
+.textoPersonagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
 
 .content {
     max-width: 1440px;
@@ -88,6 +119,9 @@ figure {
 p {
     font-size: 17px;
     width: 700px;
+    text-align: start;
+    line-height: 1.7;
+    margin-bottom: 1em;
 }
 
 .main {
