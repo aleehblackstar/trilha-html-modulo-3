@@ -1,7 +1,12 @@
-body, html {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100vw;
 }
 
 header {
@@ -43,6 +48,9 @@ header {
     width: 95%; 
 }
 
+.bar-temas a {
+    color: white
+}
 
 .pesquisa {
     width: 100%;
@@ -90,6 +98,7 @@ li {
     font-size: 33px;
     font-weight: bold;
     border-bottom: 2px solid black;
+    padding-top: 19px;
 }
 
 .corLuffy {
@@ -188,8 +197,14 @@ li {
     padding-right: 1rem;
 }
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    background: black;
+    color: white;
+    
 }
 .ancoras {
     display: flex;
@@ -198,11 +213,19 @@ li {
     border-left: solid 1px #cdcdcd;
     padding-left: 50px;
     font-style: italic;
+    padding-top: 20px;
 }
 
+.ancoras a {
+    padding-left: 45px;
+}
+
+figure {
+    padding-bottom: 50px;
+}
 
 .pages {
-    padding-right: 90px;
+    padding-right: 70px;
 }
 
 .columnRight {
@@ -220,6 +243,7 @@ li {
     flex-direction: column;
     border-right: solid 1px #cdcdcd;
     font-style: italic;
+    padding-top: 20px;
 }
 figure {
     text-align: center;
@@ -236,6 +260,13 @@ p {
 .pesquisa {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.tesouro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
